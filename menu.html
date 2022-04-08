@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/1be78b3e4d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Remember to link to your CSS file! -->
   </head>
+
   <body>
+    <div id="closed">
+      <h1>Easter 2022</h1>
+      <p>
+        We will be closing early on Saturday April 16 (8PM) and closed for the
+        entirety of Sunday, April 17 for the Easter holiday. Thank you for your
+        understanding!
+      </p>
+    </div>
     <!-- MENU PAGE -->
-    <!-- TODO: Navbar here -->
     <nav>
       <ul>
         <li><a href="./index.html">Index</a></li>
-        <li><a href="./menu.html">Menu</a></li>
+        <li><a class="currentpage" href="./menu.html">Menu</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
-    <!-- TODO: Banner Image here-->
+
+    <!--Banner Image-->
     <div id="banner">
       <img src="./assets/images/banner.png" alt="restaurant banner" />
     </div>
+
     <main>
-      <!-- Your job is to make the menu items in each section below a proper table! -->
+      <!-- Menu Tables-->
       <h1>Our Menu</h1>
 
       <h2>Appetizers</h2>
@@ -36,11 +50,11 @@
         </thead>
         <tbody>
           <tr>
-            <td>Chicken Satay</td>
+            <td><i class="fa-solid fa-star"></i>Chicken Satay</td>
             <td>$7.95</td>
           </tr>
           <tr>
-            <td>Fresh Rolls</td>
+            <td><i class="fa-solid fa-pepper-hot"></i>Fresh Rolls</td>
             <td>$6.95</td>
           </tr>
         </tbody>
@@ -60,7 +74,7 @@
             <td>$9.95</td>
           </tr>
           <tr>
-            <td>Red Curry</td>
+            <td><i class="fa-solid fa-star"></i>Red Curry</td>
             <td>$9.95</td>
           </tr>
           <tr>
@@ -68,7 +82,7 @@
             <td>$8.95</td>
           </tr>
           <tr>
-            <td>Tom Ka Soup</td>
+            <td><i class="fa-solid fa-pepper-hot"></i>Tom Ka Soup</td>
             <td>$8.95</td>
           </tr>
           <tr>
@@ -88,7 +102,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Pad Thai</td>
+            <td><i class="fa-solid fa-star"></i>Pad Thai</td>
             <td>$10.95</td>
           </tr>
           <tr>
@@ -96,7 +110,7 @@
             <td>$10.49</td>
           </tr>
           <tr>
-            <td>Rad Nah</td>
+            <td><i class="fa-solid fa-pepper-hot"></i>Rad Nah</td>
             <td>$10.49</td>
           </tr>
         </tbody>
@@ -116,7 +130,7 @@
             <td>$3.99</td>
           </tr>
           <tr>
-            <td>Mango Sticky Rice</td>
+            <td><i class="fa-solid fa-star"></i>Mango Sticky Rice</td>
             <td>$5.99</td>
           </tr>
         </tbody>
@@ -132,7 +146,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Thai Iced Coffee</td>
+            <td><i class="fa-solid fa-star"></i>Thai Iced Coffee</td>
             <td>$3.49</td>
           </tr>
           <tr>
@@ -164,11 +178,18 @@
             <td>$2.49</td>
           </tr>
           <tr>
-            <td>Cucumber Salad</td>
+            <td><i class="fa-solid fa-star"></i>Cucumber Salad</td>
             <td>$2.99</td>
           </tr>
         </tbody>
       </table>
     </main>
+
+    <footer>
+      <p>
+        A totally real restaurant for very real people! This is definitely not a
+        practice page for html ;)
+      </p>
+    </footer>
   </body>
 </html>

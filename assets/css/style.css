@@ -88,3 +88,21 @@ th {
 #locations {
   list-style-type: none;
 }
+
+.currentpage {
+  color: purple;
+}
+
+#closed {
+  background-color: turquoise;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid palevioletred;
+}
+
+footer {
+  background-color: turquoise;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px dashed palevioletred;
+}
